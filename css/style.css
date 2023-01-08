@@ -1,5 +1,6 @@
 
   .slide img{
+    background-color: blueviolet;
     object-fit: contain;
     height: 80vh !important;
     width: 100vw !important;
