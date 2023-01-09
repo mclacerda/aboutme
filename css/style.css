@@ -1,10 +1,42 @@
+:root{
+  margin: 0;
+  padding: 0;
+  --font-family:;
+  --primary-color:#73FFBA;
+  --seconday-color: #944472;
+}
+
 
   .slide img{
     background-color: blueviolet;
     object-fit: contain;
     height: 80vh !important;
     width: 100vw !important;
+}
 
+.templateView{
+  width: 80vw !important;
+  
+  margin: 0 auto;
+}
+
+.view{
+  width: 100vw !important;
+
+}
+
+.nav-link{
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(244,171,43);
+  color: -moz-radial-gradient(circle, rgba(244,171,43,1) 0%, rgba(252,239,96,1) 35%, rgba(214,226,109,1) 100%);
+  color: -webkit-radial-gradient(circle, rgba(244,171,43,1) 0%, rgba(252,239,96,1) 35%, rgba(214,226,109,1) 100%);
+  color: radial-gradient(circle, rgba(244,171,43,1) 0%, rgba(252,239,96,1) 35%, rgba(214,226,109,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4ab2b",endColorstr="#d6e26d",GradientType=1); 
+}
+
+.nav-link:hover{
+  color: var(--primary-color);
 }
 
 
