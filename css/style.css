@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lobster&family=Rowdies:wght@400;700&display=swap');
+
+
 :root{
   margin: 0;
   padding: 0;
-  --font-family:;
+  --font-family: 'Rowdies', cursive;
   --primary-color:#73FFBA;
   --seconday-color: #944472;
 }
@@ -10,7 +13,7 @@
   .slide img{
     background-color: blueviolet;
     object-fit: contain;
-    height: 80vh !important;
+   
     width: 100vw !important;
 }
 
